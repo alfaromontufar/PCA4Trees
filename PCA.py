@@ -67,10 +67,11 @@ def compute_PCs():
             index = tree[index]
 
 read_tree("input.txt")
-compute_levels_leaves()
-print(leaves)
-compute_PCs()
-print(PCs)
+show_tree()
+#compute_levels_leaves()
+#print(leaves)
+#compute_PCs()
+#print(PCs)
 #print_list(levels)
 
 
